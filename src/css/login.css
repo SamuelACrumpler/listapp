@@ -1,0 +1,33 @@
+.form-login {
+	max-width:330px;
+	padding: 15px;
+	margin: 0 auto;
+	width: 100%;
+	border-radius:5px;
+	background-color:white;
+
+}
+
+html,body {
+	background-color: whitesmoke;
+	height:100%;
+}
+
+body {
+	align-items:center;
+	display:grid;
+}
+
+button {
+
+	margin: 10px 0;
+}
+
+.container {
+	height:100%;
+}
+
+myauto {
+	margin-bottom: auto;
+	margin-top: auto;
+}
