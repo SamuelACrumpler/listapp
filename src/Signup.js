@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './css/login.css';
+import { Link } from 'react-router-dom';
+
 
 function Signup() {
 	return (
@@ -17,7 +19,7 @@ function Signup() {
 			</div>
 			<div className="container">
 				<div className="col">
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Confirm</button>
+					<Link to="/Main"><button class="btn btn-lg btn-primary btn-block" type="submit">Confirm</button></Link>
 				</div>
 			</div>
 		</form>
