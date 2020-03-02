@@ -7,7 +7,6 @@
 //Program Save Button to just trigger print function
 
 import React, { Component } from 'react';
-import './css/login.css';
 import food from './js/classes/food.js';
 
 function Main() {
